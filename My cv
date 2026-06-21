@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional CV</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: #eef2f7;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #0b3d91;
+    color: white;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+/* Section */
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    color: #0b3d91;
+    border-bottom: 2px solid #0b3d91;
+    padding-bottom: 5px;
+}
+
+/* List */
+ul {
+    padding-left: 20px;
+}
+
+/* Responsive */
+@media(max-width: 768px){
+    .container {
+        width: 95%;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>YOUR FULL NAME</h1>
+        <p>Email: yourname@gmail.com | Phone: +8801XXXXXXXXX</p>
+        <p>Location: Kaliganj, Dhaka, Bangladesh</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </div>
+
+    <!-- OBJECTIVE -->
+    <div class="section">
+        <h2>Career Objective</h2>
+        <p>
+            Motivated Sociology / Human Resources student seeking internship opportunities 
+            in international organizations such as UN, UNICEF, or ILO to gain experience 
+            in social research, policy development, and human development programs.
+        </p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <h2>Education</h2>
+        <p>
+            <b>Bachelor of Social Science (Honours)</b><br>
+            Your University Name (202X – Present)
+        </p>
+        <p>
+            <b>Higher Secondary Certificate (HSC)</b><br>
+            Your College Name (Year)
+        </p>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Research & Academic Writing</li>
+            <li>Communication (English & Bengali)</li>
+            <li>Microsoft Word, Excel, PowerPoint</li>
+            <li>Data Analysis (Basic)</li>
+            <li>Teamwork & Leadership</li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section">
+        <h2>Volunteer Experience</h2>
+        <p>
+            <b>Community Volunteer</b> – Local NGO / Organization<br>
+            • Participated in social awareness programs<br>
+            • Assisted in educational & development activities
+        </p>
+    </div>
+
+    <!-- PROJECT -->
+    <div class="section">
+        <h2>Academic Projects</h2>
+        <p>
+            Social Inequality / Poverty Study (Sample Research)<br>
+            • Conducted basic survey and analysis<br>
+            • Prepared academic report on social issues
+        </p>
+    </div>
+
+    <!-- ACHIEVEMENTS -->
+    <div class="section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Academic performance recognition</li>
+            <li>Essay / Debate participation</li>
+            <li>Leadership roles in college/university activities</li>
+        </ul>
+    </div>
+
+    <!-- LANGUAGES -->
+    <div class="section">
+        <h2>Languages</h2>
+        <p>Bengali (Native), English (Intermediate)</p>
+    </div>
+
+    <!-- INTERESTS -->
+    <div class="section">
+        <h2>Interests</h2>
+        <p>Social Development, Human Rights, Public Policy, Human Resources Management</p>
+    </div>
+
+</div>
+
+</body>
+</html>
